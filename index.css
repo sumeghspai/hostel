@@ -1,0 +1,42 @@
+.hostelCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    border:2px  solid;
+    border-radius: 10px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07),0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07),0 32px 64px rgba(0,0,0,0.07);
+    padding: 20px 0px ;
+}
+
+.hostelImage{
+    padding-left: 20px;
+}
+.hostelImage img{
+    width:200px;
+    height: 200px;    
+    border-radius: 10px;
+}
+.details{
+    padding-left: 2em;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.hostelName{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.owner{
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 5px 0px;
+}
+.bed{
+    font-weight: 500;
+    font-size: 1rem;
+}
